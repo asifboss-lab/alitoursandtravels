@@ -149,3 +149,35 @@ correctly, and `scripts/fetch-images.mjs` was fixed so it will not recur.
 - [ ] Approval of the commercial terms on `/terms`
 - [ ] Whether to replace the illustrative photographs with the business's own
 - [ ] Whether self-drive rental is offered, and on what terms
+
+## 9. Source code and hosting
+
+Source: <https://github.com/asifboss-lab/alitoursandtravels> (branch `main`).
+
+The production build is made with the client domain so that canonical URLs and the
+sitemap are correct:
+
+```bash
+VITE_SITE_URL=https://alitoursandtravels.in npm run build
+```
+
+`npm run build` also runs `scripts/make-seo-files.mjs`, which rewrites
+`public/robots.txt` and `public/sitemap.xml`. Those two files are therefore
+generated, not hand-written, and a build without `VITE_SITE_URL` will strip the
+`Sitemap:` line again. Always rebuild with the variable set before deploying, and
+do not run `scripts/dev-preview.sh` afterwards — it rebuilds without the variable
+and would overwrite the deployable `dist/`.
+
+### Hosting notes for `asifboss.0hi.me`
+
+- Transfer over **explicit FTPS** using the hostname **`ftpupload.net`**. The
+  hostname `ftp.0hi.me` points at the same server (185.27.134.11) but presents a
+  certificate issued for `ftpupload.net`, so certificate validation fails against
+  `ftp.0hi.me`. Do not disable certificate checking to work around this.
+- Upload the **contents** of `dist/`, not the `dist/` directory itself.
+- The host runs OpenResty behind a JavaScript challenge, and the existing account
+  serves a "FranzLab" default page rather than an Apache `public_html` tree. The
+  Netlify/Vercel files in `dist/` (`_redirects`, `vercel.json`, `_headers`) are
+  inert here; the client-side routes need the hosting provider's own SPA fallback,
+  which must be confirmed from the control panel before relying on it.
+- Verify the document root in the control panel. Do not assume it is `htdocs`.
