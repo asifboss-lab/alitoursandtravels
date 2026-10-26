@@ -10,3 +10,4 @@ Allow: /
 # No crawl-delay is set: the site is small and static, so a delay would only
 # slow down indexing without protecting anything.
 
+Sitemap: https://alitoursandtravels.in/sitemap.xml
