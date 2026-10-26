@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+.vite
+
+# Local preview server artefacts created by scripts/dev-preview.sh
+.preview.pid
+.preview.log
+.preview.build.log
+
+# TypeScript incremental build cache
+*.tsbuildinfo

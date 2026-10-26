@@ -1,0 +1,180 @@
+// Generated from src/content/imageCredits.json - do not edit by hand.
+// Regenerate with: node scripts/fetch-images.mjs
+export interface ImageCredit {
+  key: string;
+  alt: string;
+  naturalWidth: number;
+  widths: number[];
+  artist: string;
+  licence: string;
+  licenceUrl: string;
+  source: string;
+  title: string;
+}
+
+export const imageCredits: ImageCredit[] = [
+  {
+    "key": "hero-fortuner",
+    "alt": "A white Toyota Fortuner SUV, an example of the vehicle class used for outstation journeys",
+    "naturalWidth": 3840,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Andra Febrian",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_SRZ_2.7_4x2_(Indonesia)_front_view_01.jpg",
+    "title": "2021 Toyota Fortuner SRZ 2.7 4x2 (Indonesia) front view 01.jpg"
+  },
+  {
+    "key": "vehicle-suv",
+    "alt": "A Toyota Fortuner SUV photographed from the front",
+    "naturalWidth": 3840,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Andra Febrian",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Toyota_Fortuner_SRZ_2.7_4x2_(Indonesia)_front_view_02.jpg",
+    "title": "2021 Toyota Fortuner SRZ 2.7 4x2 (Indonesia) front view 02.jpg"
+  },
+  {
+    "key": "vehicle-innova",
+    "alt": "A Toyota Innova Crysta MPV, an example of a family and group travel vehicle",
+    "naturalWidth": 2623,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Premnath Kudva",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Innova_Crysta_2.4_Z_front_right.jpg",
+    "title": "Toyota Innova Crysta 2.4 Z front right.jpg"
+  },
+  {
+    "key": "vehicle-sedan",
+    "alt": "A white Honda City sedan",
+    "naturalWidth": 3982,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Ethan Llamas",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_City_GN2_1.5_V_Platinum_White_Pearl_-_front.jpg",
+    "title": "Honda City GN2 1.5 V Platinum White Pearl - front.jpg"
+  },
+  {
+    "key": "vehicle-mpv",
+    "alt": "A Maruti Suzuki Ertiga MPV",
+    "naturalWidth": 6664,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Akashpbrahmavar",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Maruti_Suzuki_Ertiga(1).jpg",
+    "title": "Maruti Suzuki Ertiga(1).jpg"
+  },
+  {
+    "key": "vehicle-taxi",
+    "alt": "An air-conditioned sedan taxi on an Indian road",
+    "naturalWidth": 1920,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Sbb1413",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AC_Taxi_(25_February_2024).jpg",
+    "title": "AC Taxi (25 February 2024).jpg"
+  },
+  {
+    "key": "airport-terminal",
+    "alt": "Interior of Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+    "naturalWidth": 1920,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Pinakpani",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Chhatrapati_Shivaji_Maharaj_International_Airport_in_Mumbai_02.jpg",
+    "title": "Interior of Chhatrapati Shivaji Maharaj International Airport in Mumbai 02.jpg"
+  },
+  {
+    "key": "expressway",
+    "alt": "The Mumbai-Pune Expressway, a route commonly used for outstation travel",
+    "naturalWidth": 1920,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Nikhil.kawale",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mumbai-Pune_Expressway_1.JPG",
+    "title": "Mumbai-Pune Expressway 1.JPG"
+  },
+  {
+    "key": "night-road",
+    "alt": "Headlights streaking along an illuminated road at night",
+    "naturalWidth": 1920,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "PattayaPatrol",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DSCF1058_Nighttime_long-exposure_captures_streaking_headlights_as_cars_speed_through_an_empty_urban_interchange_beneath_glowing_streetlights.jpg",
+    "title": "DSCF1058 Nighttime long-exposure captures streaking headlights as cars speed through an empty urban interchange beneath glowing streetlights.jpg"
+  },
+  {
+    "key": "mumbai-night",
+    "alt": "Mumbai city skyline at night",
+    "naturalWidth": 1920,
+    "widths": [
+      480,
+      800,
+      1280,
+      1920
+    ],
+    "artist": "Siddharth Shah",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_night_in_Mumbai.jpg",
+    "title": "A night in Mumbai.jpg"
+  }
+];
+
+export const imageCreditByKey: Record<string, ImageCredit> = Object.fromEntries(
+  imageCredits.map((c) => [c.key, c]),
+);

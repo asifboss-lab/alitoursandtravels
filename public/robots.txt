@@ -1,0 +1,12 @@
+# robots.txt for Ali Tours and Travels
+#
+# Everything here is meant to be indexed. The Sitemap line is added at build
+# time by scripts/make-seo-files.mjs once the real domain is known, because a
+# sitemap URL has to be absolute.
+
+User-agent: *
+Allow: /
+
+# No crawl-delay is set: the site is small and static, so a delay would only
+# slow down indexing without protecting anything.
+

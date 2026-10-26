@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#05080f" />
+
+    <!--
+      Default metadata. The Seo component updates these per route on the client,
+      but these values are what crawlers that do not run JavaScript will read, so
+      they describe the site as a whole rather than any single page.
+    -->
+    <title>Car Hire in Mumbra &amp; Thane | Ali Tours and Travels</title>
+    <meta
+      name="description"
+      content="Car hire, rentals and outstation taxi from Mumbra and Thane. Local journeys, airport transfers and one-way or round-trip travel. Enquire on WhatsApp."
+    />
+    <meta name="author" content="Ali Tours and Travels" />
+    <meta name="geo.region" content="IN-MH" />
+    <meta name="geo.placename" content="Mumbra, Thane, Maharashtra" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ali Tours and Travels" />
+    <meta property="og:locale" content="en_IN" />
+    <meta
+      property="og:title"
+      content="Car Hire in Mumbra &amp; Thane | Ali Tours and Travels"
+    />
+    <meta
+      property="og:description"
+      content="Car hire, car rental and outstation taxi enquiries from Mumbra and Thane. Local journeys, airport transfers and one-way or round-trip travel."
+    />
+    <meta property="og:image" content="/images/hero-fortuner-1280.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!--
+      Preloading the two Latin font subsets used above the fold avoids a flash of
+      fallback text in the hero. Other subsets load on demand via fonts.css.
+    -->
+    <link
+      rel="preload"
+      href="/fonts/sora-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/inter-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" as="image" href="/images/hero-fortuner-1280.webp" fetchpriority="high" />
+
+    <!-- Local business details, repeated here so they are present without JS. -->
+    <meta name="format-detection" content="telephone=yes" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div
+        style="
+          max-width: 44rem;
+          margin: 3rem auto;
+          padding: 1.5rem;
+          font-family: system-ui, sans-serif;
+          color: #ffffff;
+          background: #0a1020;
+          border: 1px solid rgba(255, 255, 255, 0.14);
+          border-radius: 14px;
+          line-height: 1.6;
+        "
+      >
+        <h1 style="font-size: 1.5rem; margin: 0 0 0.75rem">Ali Tours and Travels</h1>
+        <p style="margin: 0 0 0.75rem">
+          Car hire, car rental, local travel and outstation taxi services based in Tanwar Nagar,
+          Mumbra, Thane, Maharashtra – 400612.
+        </p>
+        <p style="margin: 0 0 0.75rem">
+          This website needs JavaScript to show the booking enquiry form. You can still reach us
+          directly:
+        </p>
+        <p style="margin: 0">
+          WhatsApp or call
+          <a href="tel:+919324222911" style="color: #e6c878">+91 93242 22911</a>
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

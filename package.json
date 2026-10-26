@@ -1,0 +1,37 @@
+{
+  "name": "ali-tours-and-travels",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Official website for Ali Tours and Travels - car hire, car rental, local and outstation taxi services in Mumbra, Thane, Maharashtra.",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node scripts/make-seo-files.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "assets:images": "node scripts/fetch-images.mjs",
+    "assets:fonts": "node scripts/fetch-fonts.mjs",
+    "assets:icons": "node scripts/make-icons.mjs",
+    "seo:files": "node scripts/make-seo-files.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "sharp@0.33.5": true
+  }
+}
